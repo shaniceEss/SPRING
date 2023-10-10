@@ -11,6 +11,7 @@ Class Action {
 
     $this->db = $conn;
 	}
+	
 	function __destruct() {
 	    $this->db->close();
 	    ob_end_flush();

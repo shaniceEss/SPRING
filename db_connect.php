@@ -2,9 +2,9 @@
 
 // production config start
 $servername = "localhost";
-$username = "springn1_house_rental_db_user";
-$password = "_FM19+W5SWEl";
-$database = "springn1_house_rental_db";
+$username = "root";
+$password = "";
+$database = "house_rental_db";
 
 $conn = new mysqli($servername, $username, $password, $database);
 
